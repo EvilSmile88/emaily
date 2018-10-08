@@ -1,4 +1,5 @@
 node_modules
-.idea/workspace.xml
 dev.js
 build
+.idea
+.idea/workspace.xml
