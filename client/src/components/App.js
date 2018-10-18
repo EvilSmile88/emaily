@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import * as actions from "../actions";
 
 import Header from './Header'
-import Landing from './Landing'
+import Landing from '@bit/evilsmile88.shared_comp.shared-components.landing'
 import { Switch } from 'react-router-dom';
 const Dashboard = () => <h2>Dashboard</h2>;
 const SurveyNew = () => <h2>SurveyNew</h2>;
