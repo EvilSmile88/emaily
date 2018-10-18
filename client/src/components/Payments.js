@@ -5,7 +5,10 @@ import Payments from '@bit/evilsmile88.shared_comp.shared-components.payments'
 class PaymentsComponent extends React.Component {
   render() {
     return (
-      <Payments addCredits={this.props.addCredits}/>
+      <React.Fragment>
+        12312
+        <Payments addCredits={this.props.addCredits}/>
+      </React.Fragment>
     )
   }
 }
