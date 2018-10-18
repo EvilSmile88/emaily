@@ -11,7 +11,6 @@
     }
   },
   "dependencies": {
-    "bit": "^1.0.18",
     "@bit/evilsmile88.shared_comp.shared-components.landing": "^1.0.0",
     "@bit/evilsmile88.shared_comp.shared-components.payments": "^1.0.1",
     "axios": "^0.18.0",
@@ -26,6 +25,7 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
+    "bit-install": "npm config set '@bit:registry' https://node.bitsrc.io",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
